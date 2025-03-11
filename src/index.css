@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html, body {
+  @apply bg-black text-white;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  --s: 18px;  /* size */
+  --m: 2px;   /* margin */
+  --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+  width: 880px;
+}
