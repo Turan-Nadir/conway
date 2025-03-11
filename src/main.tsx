@@ -4,7 +4,7 @@ import './index.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Square from './assets/square.tsx'
 import Page from './Page.tsx'
-import { Hexagon } from 'lucide-react'
+import Hexagon from './assets/hexagon.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
